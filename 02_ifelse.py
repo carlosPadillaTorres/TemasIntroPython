@@ -8,6 +8,6 @@ else:
         print(num2, " is greater than ", num1)
 
 print("\nTuple Iteration")
-t = ("geeks", "for", "geeks","Zzzz")
+t = ("geeks", "for", "geeks")
 for i in t:
     print(i)
