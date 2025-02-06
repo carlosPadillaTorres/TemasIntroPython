@@ -18,7 +18,7 @@ class OperasBas:
         self.num1=num1
         self.num2=num2
     '''
-    def __init__(self,x1,y1,x2,y2):
+    def _init_(self,x1,y1,x2,y2):
         self.x1=x1
         self.y1=y1
 
@@ -53,7 +53,7 @@ def main():
     #obj=OperasBas(3,4)
     #obj.suma()
 
-    obj=OperasBas(0,0,0,0)
+    obj=OperasBas()
     print("\n\nBienvendio a la calculadora de distancia entre dos puntos\n")
     obj.pedirDatos() 
     obj.calcularDistancia()  
